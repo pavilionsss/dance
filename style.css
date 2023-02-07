@@ -1,0 +1,506 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Oswald&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:#ffffff;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.sub-title{
+    padding-top: 60PX;
+    font-size:70px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family:Oswald ;
+}
+
+.sub-para{
+   font-family: Montserrat;
+   font-size: 30px;
+   letter-spacing: 1px;
+}
+
+header{
+    background-color: #e8631c;
+}
+.navbar{
+    background-color: #303030;
+}
+
+.logo{
+    height: 67px;
+    width:127px;
+}
+.nav-item{
+    margin: 10px 20px;
+}
+.navbar-nav{
+    padding-right: 99px;
+    
+}
+.nav-link{
+    color: #ffffff !important;
+    font-weight: 200;
+
+}
+.fa-magnifying-glass{
+    color: #ffffff;
+    font-size:larger;
+}
+.background{
+    background-image:url(images/Image.png);
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.banner-text{
+margin-top: 32vh;
+color: #ffffff;
+}
+.banner-text h1{
+    font-size: 90px;
+    
+}
+.banner-text p{
+font-size: 23px;
+}
+.btn{
+    background-color:  #e8631c;
+    color: #ffffff;
+}
+
+/* ........................DANCE TOUR................................................... */
+.dance-tour{
+    background-image: url(images/bg-orange.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.cards{
+    margin-top: 80px;
+   
+}
+.card{
+    background-color: #2a2a28;
+    
+}
+.card-text{
+    font-family: oswald;
+    font-size: 36px;
+}
+.card-para {
+    font-family: Montserrat;
+    margin-left: -4px;
+    font-size: 20px;
+}
+
+/* .......................PRICING......................................... */
+.pricing{
+    background-image: url(images/bg-black.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.card-price{
+    background-color:  #e8631c; 
+   
+}
+.card-logo{
+    height: 132px;
+    width: 112px;
+    margin: 50px  auto 30px;
+}
+.card-head {
+    font-size: 21px;
+    font-family: Oswald;
+    font-weight: 600;
+}
+.btn-price{
+    background-color: #303030;
+    font-family:oswald;
+    font-size: 30px;
+}
+.btn-price:hover{
+    color: #ffffff;
+}
+/* ........................AMAZING DANCE.................................................... */
+.amazing-dance{
+    background-image: url(images/amazing-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+#amazing-head{
+    font-size: 75px;
+    font-family:Oswald;
+}
+
+/* ........................BEST DANCE............................................ */
+.best-dance{
+    background-image: url(images/best-dance-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.best-img{
+    margin-top: 0;
+}
+
+/* ....................COVER SECTION.............................................. */
+
+.cover{
+     background-image: linear-gradient(0deg, rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/herbert\ simon.png); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+.statistics-h3{
+    padding-top: 100px;
+    font-family: oswald;
+    font-size: 55px;
+    font-weight: 600;
+}
+.statistics-p{
+    font-family: Montserrat;
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.count h4{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: oswald;
+    text-align: center;
+}
+.count p{
+    font-family: Montserrat;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* .........................OVERLAP SECTION............................................... */
+
+.firstportion{
+   position: relative;
+}
+.text{
+position: absolute;
+left: -80px;
+background-color: #f0bf3a;
+border-radius: 5px;
+box-shadow:15px 15px 35px grey;
+}
+.overlap-img{
+   opacity:0.6;  
+}
+/* ..............................SUBSCRIBE SECTION.................................... */
+.subscribe-section{
+    background-image: url(images/subscribe-bg.png);
+    background-size: cover;
+    width: 100%;
+   padding-bottom: 50px;
+}
+.subscribe-h3{
+    padding-top: 100px;
+    font-family: oswald;
+    font-size: 55px;
+    font-weight: 600;
+}
+.subscribe-p{
+    font-family: Montserrat;
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+#form{
+   padding: 5px 15px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: montserrat;
+  
+}
+.subscribe-btn{
+    background-color:#242323;
+    color: #ffffff;
+    font-family: oswald;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+}
+/* ..............................FOOTER SECTION..................... */
+footer{
+    background-color: #303030;
+    
+
+}
+.musicology h2{
+    font-family: oswald;
+    font-weight: 400;
+}
+.musicology p{
+    font-family: montserrat;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-right: 40px;
+}
+.fa-brands{
+    color: #303030;
+    font-size: 25px;
+    height: 40px;
+    width:40px ;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-radius: 100%;
+   text-align: center;
+   padding-top: 8px;
+}
+.list-head h2{
+    font-family:oswald;
+}
+.list ul li{
+    font-family: montserrat;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    list-style-type: none;
+    padding-top: 6px;
+ 
+}
+
+/* .........................MEDIA QUERY................................. */
+
+@media (min-width:768px) and (max-width:991px){
+.card{
+        margin-bottom: 30px;
+    }
+.banner-text{
+        margin-top: 50vh;
+        }
+.banner-text h1{
+            font-size: 80px;
+            
+        }
+.banner-text p{
+        font-size: 30px;
+        }
+.sub-para {
+            font-size: 26px;  
+        }
+.sub-para1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 41px;
+}
+#amazing-head {
+    font-size: 50px;
+    font-family: Oswald;
+}
+.text{
+   
+    left: -80px;
+    padding:15px 25px!important;
+    
+    }
+    .other{
+        padding-left: 35px;
+    }
+
+}
+@media (min-width:576px) and (max-width:767px){
+.banner-text{
+        margin-top: 55vh;
+       
+        }
+.banner-text h1{
+            font-size: 75px;
+            
+        }
+.banner-text p{
+        font-size: 25px;
+        }
+.sub-para {
+         font-size: 18px;
+        }
+.sub-title {
+    padding-top: 60PX;
+    font-size: 58px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: Oswald;
+       }
+.card{
+        margin-bottom: 30px;
+    }
+.best-img {
+            margin-top: 50px;
+           
+    }
+.amazing-image{
+        margin-top: 50px;
+       
+    }
+.sub-para1 {
+        font-family: Montserrat;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-left: 41px;
+    }
+#amazing-head {
+        font-size: 50px;
+    }
+#order{
+      order: 2;
+    }
+.text{
+       left: 0;
+        text-align: center;
+        top:-100;
+        bottom: 0;
+        padding:0 20px!important;
+        
+    }
+}
+@media (min-width:500px)and (max-width:575px){
+.banner-text{
+         margin-top: 43vh;
+        color: #ffffff;
+        margin-left: 20px;
+        }
+.banner-text h1{
+            font-size: 50px;
+            
+        }
+.banner-text p{
+        font-size: 14px;
+        }
+.btn{
+            margin-left:20px;
+        }
+.sub-para {
+           font-size: 16px;
+        }
+.sub-title {
+            padding-top: 60PX;
+            font-size: 54px;
+            font-weight: 900;
+            color: #ffffff;
+            font-family: Oswald;
+        }
+.card{
+            margin-bottom: 30px;
+        }
+.best-img {
+            margin-top: 50px;
+           
+    }
+.amazing-image{
+        margin-top: 50px;
+       
+    }
+.sub-para1 {
+        font-family: Montserrat;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-left: 41px;
+    }
+#amazing-head {
+        font-size: 50px;
+        
+    }
+#order{
+        order: 2;
+      }
+.text{
+        left: 0;
+        text-align: center;
+        top:-100;
+        bottom: 0;
+        padding:15px !important;
+        
+    }
+}
+@media (min-width:200px) and (max-width:499px){
+.banner1{
+     text-align: center;
+    }
+.banner-text{
+        margin-top: 43vh;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+.banner-text h1{
+        font-size: 50px;
+    }
+.banner-text p{
+    font-size: 14px;
+    }
+.btn{
+        margin-left:20px;
+    }
+.sub-para {
+        font-size: 14px;
+    }
+.sub-title {
+        padding-top: 60PX;
+        font-size: 50px;
+        font-weight: 900;
+        color: #ffffff;
+        font-family: Oswald;
+    }
+.card{
+        margin-bottom: 30px;
+    }
+.best-img {
+        margin-top: 50px;
+       
+}
+.amazing-image{
+    margin-top: 50px;
+   
+}
+.sub-para1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 41px;
+}
+#amazing-head {
+    font-size: 50px;
+    
+}
+#order{
+    order: 2;
+  }
+.text{
+    
+    left: 0;
+    text-align: center;
+     margin-bottom: 15px!important;
+    bottom: 0;
+    padding:3px !important;
+     }
+.text h1{
+        font-size: 25px;
+    }
+.text p{
+        font-size: 11px;
+    }
+}
+
